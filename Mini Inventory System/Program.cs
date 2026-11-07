@@ -47,6 +47,7 @@ while(isOn)
     }
 }
 
+//// Product
 void AddProduct()
 {
     int id = products.Count == 0
@@ -179,3 +180,6 @@ void DeleteProducts()
     products.Remove(product);
     Console.WriteLine("Product deleted successfully.");
 }
+
+
+//// Category
